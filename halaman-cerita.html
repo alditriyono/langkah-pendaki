@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerita Langkah Pendaki</title>
+    <style>
+        body {
+            background-color: #222; 
+            /* Perbaikan: Menggunakan column agar elemen susun ke bawah */
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .kertas-catatan {
+            background-color: #fff9e6; /* Warna kertas krem gading */
+            color: #333;
+            padding: 50px 40px 40px 70px; /* Padding kiri lebih besar untuk garis merah */
+            max-width: 600px;
+            width: 100%;
+            line-height: 1.8;
+            font-family: 'Georgia', serif;
+            border: 1px solid #d4c5a2;
+            box-shadow: 15px 15px 30px rgba(0,0,0,0.5);
+            position: relative;
+            border-radius: 2px;
+        }
+
+        /* Garis merah vertikal buku tulis */
+        .kertas-catatan::before {
+            content: "";
+            position: absolute;
+            top: 0; 
+            left: 50px;
+            height: 100%;
+            border-left: 2px solid #ffadad;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: 'Courier New', monospace;
+            text-decoration: underline;
+            margin-top: 0;
+            color: #000;
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-indent: 30px;
+            text-align: justify;
+        }
+
+        .tanda-tangan {
+            margin-top: 50px;
+            text-align: right;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 1.8rem;
+            color: #444;
+        }
+
+        /* Gaya tombol kembali di bawah kertas */
+        .btn-kembali {
+            margin-top: 40px;
+            color: white;
+            text-decoration: none;
+            font-family: 'Courier New', monospace;
+            border: 1px solid white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            background: rgba(0,0,0,0.6);
+            transition: 0.3s;
+            display: inline-block;
+        }
+
+        .btn-kembali:hover {
+            background: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="kertas-catatan">
+    <h2>CATATAN PERDANA: GUNUNG ANDONG</h2>
+    
+    <div style="text-align: center; margin: 20px 0;">
+        <div style="background: white; padding: 10px 10px 30px 10px; box-shadow: 3px 3px 10px rgba(0,0,0,0.2); transform: rotate(-2deg); display: inline-block;">
+            <img src="1717825245784.png" 
+                 style="width: 100%; max-width: 400px; height: auto; display: block;">
+            <p style="font-family: 'Courier New', monospace; font-size: 0.8rem; margin-top: 10px; text-indent: 0; text-align: center; color: #555;">
+                Puncak Andong - Memori 2018
+            </p>
+        </div>
+    </div>
+
+    <p>
+        Tahun 2018 di Gunung Andong adalah awal segalanya. Saat itu, saya berangkat dengan keterbatasan; <strong>semua barang yang saya pakai adalah hasil sewa</strong>. Dari carrier yang terasa kurang pas di punggung, hingga tenda yang harus dikembalikan tepat waktu.
+    </p>
+
+    <p>
+        Setelah sekian lama hobi ini tertidur, sekarang di tahun 2026, semangat itu muncul kembali. Namun kali ini berbeda. Saya tidak ingin lagi bergantung pada barang sewaan. Dengan budget yang sudah saya siapkan, <strong>saya memutuskan untuk memulai kembali dengan gear milik saya sendiri</strong>.
+    </p>
+
+    <p>
+    Tentu saja, <strong>menyewa peralatan bukanlah hal yang salah</strong>. Bagi mereka yang baru ingin mencoba atau sekadar melepas penat sesekali, menyewa adalah pilihan yang praktis dan ekonomis. Namun, bagi saya, keputusan untuk mulai mencicil dan membeli gear sendiri adalah tentang komitmen dan selera pribadi. 
+</p>
+
+<p>
+    Pada akhirnya, setiap pendaki punya caranya masing-masing untuk menikmati alam. Apakah itu dengan barang sewa atau milik sendiri, yang terpenting adalah rasa syukur dan keselamatan selama di perjalanan.
+</p>
+
+    <p>
+        Memiliki alat sendiri bukan cuma soal gaya, tapi soal kenyamanan dan ikatan emosional di setiap pendakian. Langkah pertama dimulai sekarang, dengan barang milik sendiri, di jalur yang baru.
+    </p>
+    <p>
+        Perjalanan ini tidak berhenti di sini. Saya akan terus memperbarui website ini seiring dengan pendakian-pendakian selanjutnya yang akan saya tempuh dengan perlengkapan baru saya. Jadi, <strong>pastikan untuk terus memantau halaman ini dan nantikan cerita-cerita baru</strong> dari langkah saya selanjutnya!
+    </p>
+
+    <div class="tanda-tangan">Langkah Pendaki</div>
+</div>
+
+    
+</body>
+<a href="halaman-utama.html" class="btn-kembali">
+    ← KEMBALI KE PERSIAPAN
+</a>
+</html>
